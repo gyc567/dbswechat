@@ -216,6 +216,8 @@ public class H2DBStoreImpl implements DBStore {
                 transactions.add(transaction);
             }
 
+
+
             return transactions;
         } catch (SQLException e) {
             e.printStackTrace();
